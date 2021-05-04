@@ -6,7 +6,14 @@ const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `Minimal Blog - Gatsby Theme`,
+    siteTitle: `Lara Isak`,
+    siteTitleAlt: `Lara Isak - Portfolio Site`,
+    siteHeadline: `Lara Isak - Portfolio Site`,
+    siteUrl: `https://github.com/lara-isak`,
+    siteDescription: `Welcome to my site!`,
+    siteLanguage: `en`,
+    siteImage: `/banner.jpg`,
+    author: `@lara-isak`,
   },
   plugins: [
     {
@@ -15,22 +22,30 @@ module.exports = {
       options: {
         navigation: [
           {
-            title: `Blog`,
-            slug: `/blog`,
-          },
-          {
             title: `About`,
             slug: `/about`,
+          },
+          {
+            title: `Projects`,
+            slug: `/projects`,
+          },
+          {
+            title: `Blog`,
+            slug: `/blog`,
           },
         ],
         externalLinks: [
           {
             name: `Twitter`,
-            url: `https://twitter.com/lekoarts_de`,
+            url: `https://twitter.com/lara_isak`,
           },
           {
-            name: `Instagram`,
-            url: `https://www.instagram.com/lekoarts.de/`,
+            name: `Github`,
+            url: `https://github.com/lara-isak`,
+          },
+          {
+            name: `Linkedin`,
+            url: `https://github.com/lara-isak`,
           },
         ],
       },
@@ -45,12 +60,12 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `minimal-blog - @lekoarts/gatsby-theme-minimal-blog`,
-        short_name: `minimal-blog`,
-        description: `Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and code highlighting.`,
+        name: `Lara Isak - Portfolio Site`,
+        short_name: `Lara Isak`,
+        description: `Welcome to my site!`,
         start_url: `/`,
         background_color: `#fff`,
-        theme_color: `#6B46C1`,
+        theme_color: `#a50b5e`,
         display: `standalone`,
         icons: [
           {
