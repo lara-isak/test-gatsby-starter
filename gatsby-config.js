@@ -45,7 +45,7 @@ module.exports = {
           },
           {
             name: `Linkedin`,
-            url: `https://github.com/lara-isak`,
+            url: `https://linkedin.com/in/lara-isak`,
           },
         ],
       },
